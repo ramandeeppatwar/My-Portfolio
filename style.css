@@ -88,12 +88,25 @@ div h2 {
   width: 100%;
 }
 
+.images:hover {
+  background-color: var(--dark-green);
+}
+
 .header {
   border-style: solid;
   border-width: 2px;
   border-color: black;
   width: 10%;
   position: absolute;
+  align-self: start;
+}
+
+footer {
+  position: sticky;
+  bottom: 0;
+  width: 30%;
+  text-align: center;
+  left: 540px;
 }
 
 /*.work-image {
