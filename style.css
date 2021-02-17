@@ -39,18 +39,23 @@ div h2 {
     text-align: center;
     border-style: solid;
     border-radius: 2px;
+    margin-bottom: 5%;
 }  
 
-#work {
-    font-size: 40px;
+#work-header {
+    font-size: 35px;
     font-weight: bold;
-    text-align: center;
     position: relative;
-    color: var(--dark-green);
-    /*right: 35%;
-    top: 150px;
-    margin-top: 3%;*/
-}
+    border-style: solid; 
+    border-width: 3px;
+    border-color: var(--lightgreen);
+    background-color: white;
+    height: 90px;
+    margin-bottom: 10%;
+    top: 100px;
+    width: 100%;
+  }
+
 #float-child2 {
    color: var(--dark-green); 
    margin-left: 25%;
@@ -60,7 +65,7 @@ div h2 {
    border-width: 0px 0px 0px 2px;
    border-color: var(--dark-green);
    text-align: center;
-   margin-top: 10%;
+   margin-top: 15%;
 }
 
 #float-child1 {
