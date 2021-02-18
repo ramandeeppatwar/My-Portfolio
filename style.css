@@ -82,11 +82,10 @@ div h2 {
 .images {
   border-style: solid;
   border-width: 1px;
+  border-color: var(--dark-green);
   padding: 10px;
   float: left;
   width: 50%;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .images img {
@@ -94,26 +93,34 @@ div h2 {
 }
 
 .images:hover {
-  background-color: var(--dark-green);
+  opacity: 0.6;
 }
 
 .header {
   border-style: solid;
   border-width: 2px;
-  border-color: black;
+  border-color:var(--black);
   width: 10%;
   position: absolute;
   align-self: start;
+  background-color: var(--dark-green);
+  color: var(--lightgreen);
+
 }
 
 footer {
-  position: sticky;
+  position: relative;
   bottom: 0;
   width: 30%;
+  height: 10%;
   text-align: center;
   left: 540px;
 }
 
+.email {
+  display: flex;
+  justify-content: space-evenly;
+}
 /*.work-image {
   border-style: solid;
   border-color: var(--dark-green);
