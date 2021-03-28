@@ -1,122 +1,110 @@
-:root {
-    --dark-green: #074432f6;
-    --lightgreen: #b9C6ae;
-    --black: black;
+@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2%;
-    background-color: var(--dark-green);
-    color: var(--lightgreen);
-    font-size: 15px;
-  }
-
-  nav ul {
-    display: flex;
-    justify-content: space-between;
-    min-width: 300px;
-  }
-
-  nav a {
-    color: var(--lightgreen);
-    font-weight: bold;
-    text-decoration: none;
-  }
-
-div h2 {
-    text-decoration: none;
-    font-size: 40px;
-    font-weight: bold;
-    width: 100%;
-    height: 90px;
-    margin: 15px 0;
-    float: left;
-    color:var(--lightgreen);
-    line-height: 90px;
-    text-align: center;
-    border-style: solid;
-    border-radius: 2px;
-    margin-bottom: 5%;
-}  
-
-#work-header {
-    font-size: 35px;
-    font-weight: bold;
-    position: relative;
-    border-style: solid; 
-    border-width: 3px;
-    border-color: var(--lightgreen);
-    background-color: white;
-    height: 90px;
-    margin-bottom: 10%;
-    top: 100px;
-    width: 100%;
-  }
-
-#float-child2 {
-   color: var(--dark-green); 
-   margin-left: 25%;
-   margin-right: 3%;
-   font-size: 25px;
-   border-style: solid;
-   border-width: 0px 0px 0px 2px;
-   border-color: var(--dark-green);
-   text-align: center;
-   margin-top: 15%;
+body {
+  font-family: "Varela", sans-serif;
+  min-height: 100vh;
 }
 
-#float-child1 {
-    float: left;
-    width: 12%;
-    display: block;
-    margin-left: 8%;
-    margin-top: 5px;
-    border: solid 2px;
-    border-radius: 50%;
-    border-color: var(--lightgreen); 
-}
-
-.images {
-  border-style: solid;
-  border-width: 1px;
-  border-color: var(--dark-green);
+a {
+  color: rgba(0, 0, 0, 0.9);
+  text-decoration: none;
+  background-color: transparent;
   padding: 10px;
-  float: left;
-  width: 50%;
 }
 
-.images img {
-  width: 100%;
+#profile-photo {
+  border-radius: 55%; max-width: 35%; height: auto;
 }
-
-.images:hover {
-  opacity: 0.6;
-}
-
-.header {
-  border-style: solid;
-  border-width: 2px;
-  border-color:var(--black);
-  width: 10%;
-  position: absolute;
-  align-self: start;
-  background-color: var(--dark-green);
-  color: var(--lightgreen);
-
-}
-
-footer {
+.alert {
   position: relative;
-  bottom: 0;
-  width: 30%;
-  height: 10%;
-  left: 540px;
 }
 
-.email {
+.card {
   display: flex;
-  ;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img.logo {
+  margin: 0 auto;
+  max-height: 100px;
+  padding-bottom: 10px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+img.project-screenshot {
+  height: 400px;
+}
+
+img.project1-screenshot {
+  height: auto;
+  width: 400px;
+}
+
+#intro {
+  padding-top: 30px;
+  align-content: center;
+  height: 100vh;
+}
+
+.navbar-light .navbar-text a {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar {
+  position: sticky;
+}
+
+#other {
+  padding-top: 15px;
+}
+
+.section {
+  padding-top: 6em;
+  margin-top: -6em;
+}
+
+.typewriter h5 {
+  color: rgba(0, 0, 0, 0.9);
+  font-family: monospace;
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5 steps(44), blink-caret 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
 }
