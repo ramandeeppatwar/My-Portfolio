@@ -4,7 +4,7 @@
 
 This is my personalized portfolio intended for anyone that would like to get to know me and my work.
 
-[Deployed Portfolio]()
+[Deployed Portfolio](https://ramandeeppatwar.github.io/My-Portfolio/)
 
 ![screenshot](assets/img/demo1.png)
 ![screenshot](assets/img/demo2.png)
