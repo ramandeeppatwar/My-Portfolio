@@ -85,6 +85,15 @@ img.project1-screenshot {
   margin-top: -6em;
 }
 
+#contact {
+  align-items: center;
+}
+
+#contact h4 {
+  margin: auto;
+  padding-left: 35%;
+}
+
 .typewriter h5 {
   color: rgba(0, 0, 0, 0.9);
   font-family: monospace;
