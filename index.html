@@ -20,6 +20,10 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
         crossorigin="anonymous"
         />
+        <!-- ion-icon -->
+        <script type="module" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule="" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"></script>
+        
         <link rel="stylesheet" href="assets/style.css">
     </head>
     <body>
@@ -102,18 +106,17 @@
                 <h4>About</h4>
                 <hr />
                 <p class="display-5 text-center">
-                Hello! I'm Ramandeep but I go by Raman. I am currently a fullstack student at Columbia Coding Bootcamp. I wanted to learn coding for a possible career change and I'm hopeful this bootcamp will allow me to do that. I am still in the early process of learning to code so please come back in the future to see my work portfolio.
+                Hello! I'm Ramandeep but I go by Raman. I am currently a fullstack student at Columbia Coding Bootcamp. I wanted to learn coding for a possible career change. I am still in the early process of learning to code but I have been putting my new skills to the test and have built some cool apps. Please take a look at some of my work below.  
                 </p>
             </div>
         </div>
-        <!-- Skills section -->
+                <!-- Skills section -->
         <div class="skills section" id="skills">
-        <h4>Skills</h4>
-        <hr />
-        <div class="card col shadow-lg p-3 mb-5 bg-white rounded alert">
-          <div>
+            <h4>Skills</h4>
+            <hr />
+          <div class="card col shadow-lg p-3 mb-5 bg-white rounded alert">
+            <div>
                 <div class="card-content">
-                    <h4 id="frontend">Frontend</h4>
                     <hr />
                     <div class="row text-center">
                         <div class="col">
@@ -139,53 +142,53 @@
                 </div>
             </div>
         </div>
-        
-        <!-- Projects section -->
-        <h4>Projects</h4>
-        <hr />
-        <div class="projects section" id="projects">
-            <div class="card shadow-lg p-3 mb-5 bg-white rounded alert">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-6 text-center">
-                <img
-                    src="Assets/img/whiptUp.png"
-                    class="project1-screenshot"
-                    alt="weather"
-                />
-                </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6">
-                    <h4 class="project-title">WhiptUp</h4>
-                    <p>
-                        WhiptUp is a recipe generator that allows a user to input ingredients that they have on hand, and select from dietary restrictions, then recipes are generated, that include all the items that the user has selected. WhiptUp is focused on reducing food waste so the application will provide addresses and information for food scrap drop off locations in NYC.
-                    </p>
-                    <h5>Technology</h5>
-                    <p>
-                        This project utilized HTML, CSS, javaScript, Foundation, Edamam Api and NYC Open Data Api
-                    </p>
-                    <hr />
-                    <div class="col-xs-3">
-                        <a
-                        class="btn btn-outline-primary btn-repo btn-block"
-                        href="https://github.com/inknsharps/WhiptUP"
-                        target="_blank"
-                        >GitHub Repo</a
-                        >
-                        <a
-                        class="btn btn-outline-primary btn-go btn-block"
-                        href="https://inknsharps.github.io/WhiptUP/"
-                        target="_blank"
-                        >Go to app</a
-                        >
+                 <!-- Projects section -->
+        <div class="project-section">
+            <h4>Projects</h4>
+            <hr />
+            <div class="projects section" id="projects">
+                <div class="card shadow-lg p-3 mb-5 bg-white rounded alert">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+                    <img
+                        src="Assets/img/whiptUp.png"
+                        class="project1-screenshot"
+                        alt="weather"
+                    />
+                    </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                        <h4 class="project-title">WhiptUp</h4>
+                        <p>
+                            WhiptUp is a recipe generator that allows a user to input ingredients that they have on hand, and select from dietary restrictions, then recipes are generated, that include all the items that the user has selected. WhiptUp is focused on reducing food waste so the application will provide addresses and information for food scrap drop off locations in NYC.
+                        </p>
+                        <h5>Technology</h5>
+                        <p>
+                            This project utilized HTML, CSS, javaScript, Foundation, Edamam Api and NYC Open Data Api
+                        </p>
+                        <hr />
+                        <div class="col-xs-3">
+                            <a
+                            class="btn btn-outline-primary btn-repo btn-block"
+                            href="https://github.com/ramandeeppatwar/WhiptUP"
+                            target="_blank"
+                            >GitHub Repo</a
+                            >
+                            <a
+                            class="btn btn-outline-primary btn-go btn-block"
+                            href="https://ramandeeppatwar.github.io/WhiptUP/"
+                            target="_blank"
+                            >Go to app</a
+                            >
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-
+         </div>
         <div class="card shadow-lg p-3 mb-5 bg-white rounded alert">
             <div class="row">
               <div class="col-sm-12 col-md-6 col-lg-6 text-center">
                 <img
-                  src="Assets/img/weather-app.png"
+                  src="Assets/img/weather-app1.png"
                   class="project-screenshot"
                   alt="weather"
                 />
@@ -221,7 +224,7 @@
                 </div>
               </div>
             </div>
-          </div>
+        </div> 
                 <!-- Contact section -->
         <footer>
             <div class="contact card col shadow-lg p-3 mb-5 bg-white rounded alert" id="contact">
@@ -239,11 +242,8 @@
                     <a href="mailto:ramandeep.rkaur13@gmail.com">ramandeep.rkaur13@gmail.com</a>
                 </div>
             </div>
-        </footer>
-        
-        <!-- ion-icon -->
-        <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
-        <!-- Bootsrap JS cdn -->
+        </footer> 
+                    <!-- Bootsrap JS cdn -->
         <script
             src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

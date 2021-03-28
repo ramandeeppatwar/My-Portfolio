@@ -7,7 +7,7 @@
 
 body {
   font-family: "Varela", sans-serif;
-  min-height: 100vh;
+  height: auto;
 }
 
 a {
@@ -30,6 +30,10 @@ a {
   min-width: 0;
 }
 
+.project-section {
+  margin-top: 10%;
+}
+
 .container {
   width: 100%;
   padding-right: 15px;
@@ -48,18 +52,20 @@ img.logo {
 }
 
 img.project-screenshot {
-  height: 400px;
+  max-width: 100%;
+  height: auto;
 }
 
 img.project1-screenshot {
+  max-width: 100%;
   height: auto;
-  width: 400px;
 }
 
 #intro {
   padding-top: 30px;
   align-content: center;
-  height: 100vh;
+  height: auto;
+  margin-bottom: 14%;
 }
 
 .navbar-light .navbar-text a {
@@ -106,5 +112,14 @@ img.project1-screenshot {
   }
   50% {
     border-color: orange;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .display-4 {
+    font-size: 22px;
+  }
+  .card {
+    margin-top: auto;
   }
 }
