@@ -6,9 +6,9 @@ This is my personalized portfolio intended for anyone that would like to get to 
 
 [Deployed Portfolio]()
 
-!(screenshot) (assets/img/demo1.png)
-!(screenshot) (assets/img/demo2.png)
-!(screenshot) (assets/img/demo3.png)
+![screenshot](assets/img/demo1.png)
+![screenshot](assets/img/demo2.png)
+![screenshot](assets/img/demo3.png)
 ## Questions
 
 Check out my other repositories in the link below:
